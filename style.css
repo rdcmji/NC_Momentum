@@ -8,3 +8,13 @@ body {
   display: flex;
   flex-direction: column;
 }
+.question{
+  width: fit-content;
+  margin: auto;
+}
+.form, .greeting{
+  display : none;
+}
+.showing{
+  display: flex;
+}
