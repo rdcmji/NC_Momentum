@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>NP_Momentum</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div class="js-clock">
-      <h1>00:00</h1>
-    </div>
-    <form class="js-form form">
-      <span class="js-question question">What is your name?</span>
-      <input type="text" placeholder=""/>
+
+<head>
+	<meta charset="utf-8">
+	<title>NP_Momentum</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="js-clock">
+		<h1>00:00</h1>
+	</div>
+	<form class="js-form form">
+		<!-- <span class="js-question question">What is your name?</span> -->
+		<input type="text" placeholder="What is your name?"/>
     </form>
     <h4 class="js-greeting greeting"></h4>
+    <form class="js-toDoForm">
+      <input type="text" placeholder="Write a to do"/>
+    </form>
+    <ul class="js-toDoList">
+    </ul>
     <script src="clock.js"></script>
     <script src="form.js"></script>
+    <script src="toDo.js"></script>
   </body>
 </html>
