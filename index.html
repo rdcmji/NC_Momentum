@@ -8,22 +8,25 @@
 </head>
 
 <body>
-	<div class="js-clock">
-		<h1>00:00</h1>
-	</div>
-	<form class="js-form form">
-		<!-- <span class="js-question question">What is your name?</span> -->
-		<input type="text" placeholder="What is your name?"/>
+  <span class="js-weather"></span>
+  <div class="main">
+    <div class="js-clock">
+      <h1>00:00</h1>
+    </div>
+    <form class="js-form form">
+      <input type="text" placeholder="What is your name?" required/>
     </form>
     <h4 class="js-greeting greeting"></h4>
     <form class="js-toDoForm">
-      <input type="text" placeholder="Write a to do"/>
+      <input type="text" placeholder="Write a to do" required/>
     </form>
     <ul class="js-toDoList">
     </ul>
-    <script src="clock.js"></script>
-    <script src="form.js"></script>
-    <script src="toDo.js"></script>
-    <script src="bg.js"></script>
-  </body>
+  </div>
+  <script src="clock.js"></script>
+  <script src="form.js"></script>
+  <script src="toDo.js"></script>
+  <script src="bg.js"></script>
+  <script src="weather.js"></script>
+</body>
 </html>
